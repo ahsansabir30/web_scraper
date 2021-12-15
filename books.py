@@ -91,7 +91,6 @@ def web_scraper(num_pages):
 
         csv_writer.writerow([book_isbn, book_name, book_desc, book_author, book_date, book_type, book_link, book_price, book_rrp, book_category, book_availability, delivery_type, delivery])
 
-pages = 10
 for page_number in range(0, pages):
     web_scraper(page_number)
 
