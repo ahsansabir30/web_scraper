@@ -43,7 +43,7 @@ for page in range(0, 9):
 database = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="852702449a",
+    passwd="password",
     database="Computer"
 )
 
