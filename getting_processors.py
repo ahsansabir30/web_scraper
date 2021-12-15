@@ -29,7 +29,7 @@ for processor in processors:
 database = mysql.connector.connect(
      host="localhost",
      user="root",
-     passwd="852702449a",
+     passwd="password",
      database="Computer"
 )
 
